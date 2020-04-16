@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font: bold 17px sans-serif;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font: bold 17px sans-serif;
+    text-align: justify
+}
+
+header,
+section,
+footer,
+nav,
+article,
+hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+    background-image: url("images/gif1.gif");
+    background-size: 125px;
+}
+
+.agrupar {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0px auto;
+    background: #084177;
+}
+
+.cabecera {
+    background-image: url("images/imagen1.jpg");
+    padding: 60px;
+    text-align: justify;
+    background-size: 800px;
+}
+
+.cabecera h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: #ecfbfc;
+}
+
+.menu {
+    background: #ffac41;
+    padding: 5px 15px;
+}
+
+.menu {
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 25px verdana;
+    display: inline-block;
+    border-right: 1px solid black;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    background: #ffb142;
+    border: 5px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font: 15px Segoe UI;
+    list-style: square;
+}
+
+.seccion {
+    margin: 20px;
+    float: left;
+}
+
+.pie {
+    color: blanchedalmond;
+    font: bold 15px Tahoma;
+}
+
+iframe {
+    border: 5px solid blue;
+    display: block;
+    margin: 50px auto
+}
+
+cite {
+    font-size: 12px;
+    display: block;
+    text-align: right;
+}
